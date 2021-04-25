@@ -1,0 +1,55 @@
+{
+    "name": "student-certificate-generator",
+    "version": "1.0.0",
+    "description": "Web form for batch generation of student course-completion certificate PDFs. Modified for public demonstration.",
+    "repository": "git@github.com:cwright814/student-certificate-generator.git",
+    "author": "Christopher A Wright",
+    "license": "SEE LICENSE IN ./LICENSE",
+    "private": true,
+    "main": "src/main.ts",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "serve:verbose": "VUE_APP_DEBUG='verbose' npm run serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.34",
+        "@fortawesome/free-regular-svg-icons": "^5.15.2",
+        "@fortawesome/free-solid-svg-icons": "^5.15.2",
+        "@fortawesome/vue-fontawesome": "^2.0.2",
+        "acorn": "^6.1.1",
+        "aws-sdk": "^2.838.0",
+        "axios": "^0.21.1",
+        "bluebird": "^3.7.2",
+        "bootstrap-vue": "^2.0.0-rc.11",
+        "dayjs": "^1.10.4",
+        "jquery": "^3.3.1",
+        "pdfform": "git+ssh://git@github.com:renashall/PDFForm.git#a0dc46bc063c50865ee91016cb2876939d143d1c",
+        "setimmediate": "^1.0.5",
+        "vee-validate": "^3.4.5",
+        "vue": "^2.5.17",
+        "vue-axios": "^3.2.4",
+        "vue-class-component": "^6.0.0",
+        "vue-property-decorator": "^7.0.0",
+        "vue-router": "^3.0.1",
+        "vuex": "^3.0.1"
+    },
+    "devDependencies": {
+        "@types/bluebird": "^3.5.33",
+        "@types/node": "^14.14.25",
+        "@types/setimmediate": "^1.0.2",
+        "@vue/cli-plugin-babel": "^3.1.1",
+        "@vue/cli-plugin-typescript": "^3.1.1",
+        "@vue/cli-service": "^3.1.4",
+        "eslint": "^5.9.0",
+        "node-sass": "^4.9.0",
+        "sass-loader": "^7.0.1",
+        "typescript": "^3.0.0",
+        "vue-template-compiler": "^2.5.17"
+    },
+    "engines": {
+        "node": "^10.23.0",
+        "npm": "^6.14.0"
+    }
+}
